@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Md Rakib Mia — Debator and Social Worker</title>
+<meta name="description" content="Md Rakib Mia is a debator and social worker at the University of Dhaka. President of the IER Debating Club, champion debater, and anti-corruption youth volunteer.">
+<meta property="og:title" content="Md Rakib Mia — Debator and Social Worker">
+<meta property="og:description" content="Debate record, leadership roles, training and contact details.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#2d4bb0">
+
+<!--
+  ============================================================
+  HOW TO EDIT THIS PORTFOLIO
+  ============================================================
+  1. Open this file in any text editor (VS Code, Notepad, etc.).
+  2. Search for "EDIT:" — every place you may want to change has one.
+  3. Change the text between the tags, e.g.
+        <h3>President</h3>   ->   <h3>Your new title</h3>
+  4. To add a new experience, copy one whole <li class="job"> ... </li>
+     block and paste it where you want it.
+  5. To add a new debate result, copy one whole <li class="round"> ... </li>.
+  6. Your photo is the file "photo.jpg" in the same folder. Replace it
+     with a sharper photo of the same name to update the page.
+  7. To publish: upload index.html and photo.jpg together to any
+     static host (GitHub Pages, Netlify, Cloudflare Pages, or your own
+     web hosting).
+  ============================================================
+-->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap" rel="stylesheet">
+
+<style>
+  /* EDIT: colours live here. Change a hex value to re-theme the whole page. */
+  :root {
+    --ink: #101528;
+    --blue: #2d4bb0;
+    --blue-deep: #20388a;
+    --paper: #f5f6fa;
+    --mist: #dfe3f0;
+    --red: #d8392f;
+    --muted: #4b5270;
+
+    --display: "Bricolage Grotesque", "Helvetica Neue", Arial, sans-serif;
+    --text: "Newsreader", Georgia, "Times New Roman", serif;
+    --wrap: 1080px;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; }
+  html { scroll-behavior: smooth; scroll-padding-top: 72px; }
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: var(--text);
+    font-size: 1.125rem;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+  img { max-width: 100%; display: block; }
+  a { color: inherit; }
+  :focus-visible { outline: 3px solid var(--red); outline-offset: 3px; border-radius: 2px; }
+
+  .wrap { width: min(var(--wrap), 100% - 2.5rem); margin-inline: auto; }
+  h1, h2, h3 { font-family: var(--display); margin: 0; line-height: 1.05; letter-spacing: -0.02em; }
+  h2 { font-size: clamp(2rem, 4.5vw, 3rem); font-weight: 800; }
+  h3 { font-size: 1.25rem; font-weight: 700; letter-spacing: -0.01em; line-height: 1.2; }
+  p { margin: 0; }
+
+  /* ---------- top bar ---------- */
+  .bar {
+    position: sticky; top: 0; z-index: 10;
+    background: var(--ink); color: #fff;
+    font-family: var(--display); font-size: 0.95rem; font-weight: 500;
+  }
+  .bar .wrap { display: flex; align-items: center; justify-content: space-between; min-height: 56px; gap: 1rem; }
+  .bar .mark { font-weight: 800; text-decoration: none; letter-spacing: -0.01em; }
+  .bar nav { display: flex; gap: 1.4rem; flex-wrap: wrap; justify-content: flex-end; }
+  .bar nav a { text-decoration: none; opacity: 0.8; padding: 0.25rem 0; border-bottom: 2px solid transparent; }
+  .bar nav a:hover { opacity: 1; border-bottom-color: var(--red); }
+
+  /* ---------- hero ---------- */
+  .hero { background: var(--blue); color: #fff; overflow: hidden; }
+  .hero .wrap {
+    display: grid; grid-template-columns: 1fr 250px; gap: 3rem; align-items: end;
+    padding-block: clamp(3rem, 8vw, 6rem) 0;
+  }
+  .hero h1 {
+    font-size: clamp(3.4rem, 11vw, 8rem);
+    font-weight: 800;
+    line-height: 0.9;
+    letter-spacing: -0.045em;
+  }
+  .hero h1 span { display: block; }
+  .role {
+    margin-top: 1.5rem;
+    font-family: var(--display); font-weight: 500;
+    font-size: clamp(1.1rem, 2.4vw, 1.5rem);
+    letter-spacing: 0;
+  }
+  .lede { margin-top: 1.25rem; max-width: 34rem; font-size: 1.25rem; color: #e6ebff; }
+  .cta { display: flex; flex-wrap: wrap; gap: 0.75rem; margin: 2rem 0 3rem; }
+  .btn {
+    font-family: var(--display); font-weight: 700; font-size: 1rem;
+    text-decoration: none; padding: 0.8rem 1.3rem; border-radius: 4px;
+    border: 2px solid #fff; transition: background 0.15s, color 0.15s;
+  }
+  .btn.solid { background: #fff; color: var(--blue-deep); }
+  .btn.solid:hover { background: var(--mist); }
+  .btn.ghost { color: #fff; }
+  .btn.ghost:hover { background: #fff; color: var(--blue-deep); }
+
+  .portrait {
+    align-self: end; width: 100%;
+    aspect-ratio: 4 / 5; background: var(--blue-deep);
+    border: 6px solid var(--paper); border-bottom: 0;
+    display: grid; place-items: center; overflow: hidden;
+  }
+  .portrait img { width: 100%; height: 100%; object-fit: cover; object-position: center top; }
+  .portrait .initials { font-family: var(--display); font-weight: 800; font-size: 4rem; color: #fff; }
+
+  /* one entrance moment, on page load only */
+  @media (prefers-reduced-motion: no-preference) {
+    .hero h1 span { animation: rise 0.7s cubic-bezier(.2,.7,.2,1) both; }
+    .hero h1 span:nth-child(2) { animation-delay: 0.08s; }
+    .hero h1 span:nth-child(3) { animation-delay: 0.16s; }
+    @keyframes rise { from { opacity: 0; transform: translateY(28px); } to { opacity: 1; transform: none; } }
+  }
+
+  /* ---------- sections ---------- */
+  section { padding-block: clamp(3.5rem, 8vw, 6rem); }
+  .head { display: grid; grid-template-columns: 300px 1fr; gap: 2rem; }
+  .head h2 { grid-column: 1; }
+  .head > div { grid-column: 2; }
+
+  /* about */
+  .about p { font-size: clamp(1.4rem, 3vw, 2rem); line-height: 1.35; max-width: 36rem; font-weight: 400; }
+  .facts { margin: 2rem 0 0; padding: 0; list-style: none; display: grid; gap: 0.35rem; color: var(--muted); font-size: 1.05rem; }
+  .facts strong { color: var(--ink); font-weight: 500; }
+
+  /* debate record — the featured element */
+  .record { background: var(--ink); color: #fff; }
+  .record .sub { color: #b9c1e0; margin-top: 0.75rem; max-width: 30rem; }
+  .rounds { list-style: none; margin: 3rem 0 0; padding: 0; border-top: 2px solid #fff; }
+  .round {
+    display: grid; grid-template-columns: 9rem 1fr auto; gap: 1.5rem; align-items: center;
+    padding: 1.5rem 0; border-bottom: 1px solid #39405f;
+  }
+  .round .year {
+    font-family: var(--display); font-weight: 800; letter-spacing: -0.04em;
+    font-size: clamp(3rem, 7vw, 4.5rem); line-height: 0.9;
+    color: transparent; -webkit-text-stroke: 1.5px #fff;
+  }
+  .round .what { font-family: var(--display); font-weight: 700; font-size: 1.3rem; line-height: 1.2; }
+  .round .where { display: block; margin-top: 0.3rem; font-family: var(--text); font-weight: 400; font-size: 1.05rem; color: #b9c1e0; }
+  .result {
+    font-family: var(--display); font-weight: 800; font-size: 1.05rem;
+    padding: 0.5rem 1rem; border-radius: 3px; white-space: nowrap;
+  }
+  .result.champ { background: var(--red); color: #fff; }
+  .result.final { border: 2px solid #fff; color: #fff; }
+
+  /* experience timeline */
+  .jobs { list-style: none; margin: 0; padding: 0; position: relative; }
+  .jobs::before { content: ""; position: absolute; left: 6px; top: 0.6rem; bottom: 0.6rem; width: 2px; background: var(--mist); }
+  .job { position: relative; padding: 0 0 2.25rem 2.25rem; }
+  .job:last-child { padding-bottom: 0; }
+  .job::before {
+    content: ""; position: absolute; left: 0; top: 0.5rem; width: 14px; height: 14px;
+    background: var(--paper); border: 3px solid var(--blue); border-radius: 50%;
+  }
+  .job.now::before { background: var(--red); border-color: var(--red); }
+  .job .when { font-family: var(--display); font-weight: 500; font-size: 0.95rem; color: var(--muted); margin-bottom: 0.15rem; }
+  .job .org { color: var(--muted); }
+  .job .note { margin-top: 0.4rem; font-style: italic; }
+
+  /* skills + learning */
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; }
+  .split h2 { margin-bottom: 1.5rem; }
+  .ruled { list-style: none; margin: 0; padding: 0; border-top: 2px solid var(--ink); }
+  .ruled li { padding: 0.7rem 0; border-bottom: 1px solid var(--mist); }
+  .ruled small { display: block; color: var(--muted); font-size: 1rem; }
+
+  .study { background: #fff; }
+
+  /* contact */
+  .contact { background: var(--blue); color: #fff; }
+  .contact h2 { font-size: clamp(2.4rem, 7vw, 5rem); letter-spacing: -0.04em; max-width: 14ch; }
+  .contact ul { list-style: none; padding: 0; margin: 2.5rem 0 0; display: grid; gap: 0.9rem; font-size: 1.3rem; }
+  .contact li span { display: block; font-family: var(--display); font-weight: 500; font-size: 0.95rem; color: #cbd5ff; }
+  .contact a { text-decoration-thickness: 2px; text-underline-offset: 4px; }
+
+  footer { background: var(--ink); color: #b9c1e0; font-size: 0.95rem; padding-block: 1.5rem; }
+
+  /* ---------- small screens ---------- */
+  @media (max-width: 820px) {
+    .hero .wrap { grid-template-columns: 1fr; gap: 2rem; }
+    .portrait { width: 200px; order: -1; align-self: start; border-bottom: 6px solid var(--paper); aspect-ratio: 1; margin-bottom: 0; }
+    .hero .wrap { padding-bottom: 3rem; }
+    .cta { margin-bottom: 0; }
+    .head { grid-template-columns: 1fr; gap: 1.25rem; }
+    .head > div, .head h2 { grid-column: 1; }
+    .split { grid-template-columns: 1fr; gap: 3rem; }
+    .round { grid-template-columns: 1fr auto; gap: 0.5rem 1rem; }
+    .round .year { grid-column: 1 / -1; }
+    .bar nav { gap: 1rem; font-size: 0.85rem; }
+  }
+  @media (max-width: 520px) {
+    .bar .mark { display: none; }
+    .bar nav { justify-content: space-between; width: 100%; }
+  }
+
+  /* ---------- print / save as PDF ---------- */
+  @media print {
+    .bar, .cta { display: none; }
+    html { scroll-behavior: auto; }
+    body { background: #fff; font-size: 11pt; }
+    section { padding-block: 1.5rem; break-inside: avoid; }
+    .hero, .record, .contact, footer { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  }
+</style>
+</head>
+
+<body>
+
+<header class="bar">
+  <div class="wrap">
+    <a class="mark" href="#top">Md Rakib Mia</a>
+    <nav aria-label="Sections">
+      <a href="#about">About</a>
+      <a href="#record">Debate record</a>
+      <a href="#experience">Experience</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ===================== HERO ===================== -->
+  <div class="hero">
+    <div class="wrap">
+      <div>
+        <!-- EDIT: your name. Each <span> is one line of the big heading. -->
+        <h1><span>Md</span><span>Rakib</span><span>Mia</span></h1>
+        <!-- EDIT: your title -->
+        <p class="role">Debator and social worker</p>
+        <!-- EDIT: one-line summary -->
+        <p class="lede">Creative and analytical. Strongest at running events and speaking clearly. Works against corruption.</p>
+        <div class="cta">
+          <a class="btn solid" href="#record">See my debate record</a>
+          <a class="btn ghost" href="#contact">Get in touch</a>
+        </div>
+      </div>
+
+      <!-- EDIT: replace photo.jpg with your own photo (same file name) -->
+      <div class="portrait">
+        <img src="photo.jpg" alt="Portrait of Md Rakib Mia" width="189" height="236"
+             onerror="this.replaceWith(Object.assign(document.createElement('span'),{className:'initials',textContent:'MR'}))">
+      </div>
+    </div>
+  </div>
+
+  <!-- ===================== ABOUT ===================== -->
+  <section id="about" class="about">
+    <div class="wrap head">
+      <h2>About</h2>
+      <div>
+        <!-- EDIT: your profile paragraph -->
+        <p>I bring creative and analytical thinking to every project. I am at my best in event management and communication, and I work against corruption.</p>
+        <ul class="facts">
+          <!-- EDIT: quick facts -->
+          <li><strong>Now:</strong> President, IER Debating Club (2025–2026)</li>
+          <li><strong>Studied:</strong> Bachelor of Education, University of Dhaka</li>
+          <li><strong>Based at:</strong> Bijoy Ekattor Hall, University of Dhaka</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== DEBATE RECORD ===================== -->
+  <section id="record" class="record">
+    <div class="wrap">
+      <div class="head">
+        <h2>Debate record</h2>
+        <div><p class="sub">Competitions I have entered, newest first.</p></div>
+      </div>
+
+      <ol class="rounds">
+        <!-- EDIT: copy a whole <li class="round"> block to add a result.
+             Use class "champ" for Champion, "final" for Finalist. -->
+        <li class="round">
+          <span class="year">2024</span>
+          <span class="what">Intra-IER Debate Competition<span class="where">IER Debating Club</span></span>
+          <span class="result champ">Champion</span>
+        </li>
+        <li class="round">
+          <span class="year">2023</span>
+          <span class="what">TIB-YES Debate Competition (DOT + DOF)<span class="where">Transparency International Bangladesh, Youth Engagement Support</span></span>
+          <span class="result champ">Champion</span>
+        </li>
+        <li class="round">
+          <span class="year">2023</span>
+          <span class="what">Intra-Hall Debate Competition<span class="where">Bijoy Ekattor Hall</span></span>
+          <span class="result champ">Champion</span>
+        </li>
+        <li class="round">
+          <span class="year">2022</span>
+          <span class="what">Intra-Hall Debate Competition<span class="where">Bijoy Ekattor Hall</span></span>
+          <span class="result final">Finalist</span>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ===================== EXPERIENCE ===================== -->
+  <section id="experience">
+    <div class="wrap head">
+      <h2>Experience</h2>
+      <div>
+        <ol class="jobs">
+          <!-- EDIT: copy a whole <li class="job"> block to add a role.
+               Add class "now" (class="job now") for a role you hold today. -->
+          <li class="job now">
+            <p class="when">2025 – 2026</p>
+            <h3>President</h3>
+            <p class="org">IER Debating Club</p>
+          </li>
+          <li class="job now">
+            <p class="when">2024 – present</p>
+            <h3>Joint General Secretary</h3>
+            <p class="org">Bijoy Ekattor Hall Debating Club</p>
+          </li>
+          <li class="job">
+            <p class="when">October 2024 – March 2025 · 6 months</p>
+            <h3>Intern teacher</h3>
+            <p class="org">Udayan Uchchamadhyamik Biddalaya</p>
+          </li>
+          <li class="job">
+            <p class="when">2024 – 2025</p>
+            <h3>Vice President (Debate)</h3>
+            <p class="org">IER Debating Club</p>
+            <p class="note">Champion, Intra-IER Debate Competition 2024</p>
+          </li>
+          <li class="job">
+            <p class="when">2023 – 2024</p>
+            <h3>Vice President</h3>
+            <p class="org">Bijoy Ekattor Hall Quiz Club</p>
+          </li>
+          <li class="job">
+            <p class="when">Member</p>
+            <h3>Youth Engagement Support (IER-YES)</h3>
+            <p class="org">Transparency International Bangladesh</p>
+            <p class="note">Champion, TIB-YES Debate Competition 2023</p>
+          </li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== SKILLS + TRAINING ===================== -->
+  <section id="skills" class="study">
+    <div class="wrap split">
+      <div>
+        <h2>Skills</h2>
+        <ul class="ruled">
+          <!-- EDIT: one <li> per skill -->
+          <li>Event management</li>
+          <li>Debate</li>
+          <li>Problem-solving</li>
+          <li>Computer literacy</li>
+          <li>Project management tools</li>
+          <li>Strong communication</li>
+          <li>Volunteering</li>
+        </ul>
+      </div>
+      <div>
+        <h2>Education and training</h2>
+        <ul class="ruled">
+          <!-- EDIT: one <li> per entry; <small> is the second line -->
+          <li>Bachelor of Education<small>University of Dhaka</small></li>
+          <li>Higher Secondary<small>Govt. Shah Abdur Rouf College, 2018–2020</small></li>
+          <li>Basic ICT training</li>
+          <li>Gender-based training</li>
+          <li>AI training</li>
+          <li>Psychological training</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CONTACT ===================== -->
+  <section id="contact" class="contact">
+    <div class="wrap">
+      <h2>Let’s work together</h2>
+      <ul>
+        <!-- EDIT: your contact details (keep the href in step with the text) -->
+        <li><span>Email</span><a href="mailto:rakibdu781@gmail.com">rakibdu781@gmail.com</a></li>
+        <li><span>Phone</span><a href="tel:+8801845263228">01845 263228</a></li>
+        <li><span>Address</span>Bijoy Ekattor Hall, University of Dhaka</li>
+      </ul>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">© 2026 Md Rakib Mia</div>
+</footer>
+
+</body>
+</html>
